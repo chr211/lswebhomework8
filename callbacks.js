@@ -109,7 +109,7 @@ cb(arr.filter(function(e,pos){
 // Write a function called forEach that iterates over the provided array and passes the value and index into the callback.
 
 forEach(foods, (value, index) => {
-  console.log(`${value}` ' is at index ' + index);
+  console.log(`${value}` + ' is at index ' + index);
 });
 
 function forEach(arr,cb){

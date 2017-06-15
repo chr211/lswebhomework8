@@ -37,7 +37,7 @@ getLength(foods, (length) => {
   console.log('The length of the array is ' + length);
 });
 
-var getLength(foo, cb) => {
+function getLength(foo, cb) {
 	cb(foo.length);
 
 }
